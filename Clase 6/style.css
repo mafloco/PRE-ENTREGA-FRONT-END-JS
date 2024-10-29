@@ -1,0 +1,28 @@
+
+html{background-image: url(img.png);
+    background-size: cover; /* O 'contain', según tus necesidades */
+    opacity: 0.5; /* Valor entre 0 (transparente) y 1 (opaco) */}
+
+h1{border: 2px;
+border-color: pink;
+font-style: italic;
+font-size: larger;}
+
+body{border: 10rem;
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas sobre el cuerpo */}
+
+.custom-cursor {
+    cursor: url(flor.png), auto; /* Ruta a tu imagen de cursor */}
+
+h1{border: 5rem;}
+
+textarea {
+    width: auto; /* Ocupa todo el ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    padding: 10px; /* Espacio interno */
+    border: 2px solid #007BFF; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    resize: none; /* Desactiva la opción de redimensionar manualmente */
+    font-size: 16px; /* Tamaño de fuente */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
